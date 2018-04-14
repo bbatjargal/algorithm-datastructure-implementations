@@ -1,6 +1,9 @@
 import random
 import copy
 
+#Running time: T(n)=O(n*n)
+#stable
+#in-place
 def insertionSort(arr):
     ln = len(arr)
     iteration = 0
